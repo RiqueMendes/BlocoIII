@@ -1,0 +1,28 @@
+
+.center {
+    text-align: center;
+    color: navy;
+}
+.construcao-titulo{
+    color: navy;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    
+}
+header{
+    background-color: #122A57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.left {
+    text-align: left;
+    color: navy
+}
+
