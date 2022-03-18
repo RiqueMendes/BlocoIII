@@ -1,10 +1,10 @@
 
 .center {
     text-align: center;
-    color: navy;
+    color: #122A57;
 }
 .construcao-titulo{
-    color: navy;
+    color: #122A57;
     text-align: center;
 }
 .flex-container{
@@ -12,8 +12,12 @@
     max-width: 992px;
     margin: auto;
     width: 100%;
-    
 }
+footer {
+    color: white;
+    background-color: #122A57;
+}
+
 header{
     background-color: #122A57;
     height: 100px;
@@ -23,6 +27,17 @@ header{
 }
 .left {
     text-align: left;
-    color: navy
+    color:#122A57;
+    margin-left: 20px; 
+    
+    
 }
+.image{
+    border-radius: 50%;
+    
+    
+}
+
+/* PÁGINA DE CONTATO */
+
 
