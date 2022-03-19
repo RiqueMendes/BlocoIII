@@ -27,23 +27,19 @@ function validaNome() {
         txtNome.style.color = 'black'
     }
 }
-function validaEmail () {
-    let txtEmail = document.querySelector('#txtEmail')
+function validaEmail() {
 
-    if(email.value.indexOf('@') == -1) {
-        txtEmail.innerHTML = 'E-mail Invalido'
-        
-    }else {
-        txtEmail.innerHTML = 'E-mail valido'
+    let txt = document.querySelector('#txtEmail')
+    let regex = /[a-z0-9!#$%&'+/=?^_`{|}~-]+(?:.[a-z0-9!#$%&'+/=?^_`{|}~-]+)@(?:[a-z0-9](?:[a-z0-9-][a-z0-9])?.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/gi
+
+    if (email.value.match(regex)){
+        txt.innerHTML = "E-mail Válido";
+        email.style.border = "3px solid green"
+    } else {
+        txt.innerHTML = "E-mail Inválido";
+        email.style.border = "3px solid red"
     }
-    function validaAssunto(){
-        let txtAssunto = document.querySelector('#assunto')
-
-        if(assunto.value.length >= 10) {
-            txtAssunto.innerHTML = 'nao ultrapassar 100 caracteres'
-        }
-
-    }
-
 }
+
+
 
