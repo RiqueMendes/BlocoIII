@@ -156,6 +156,7 @@ footer {
 }
 footer {
     border-radius: 8px;
+    background-color: #23232e;
 }
 
 /* PÁGINA DE CONTATO */
@@ -164,13 +165,32 @@ footer {
 h1 {
     text-align: center; 
     color: white; 
-    margin-bottom: 5rem;
+   margin-bottom: 3rem;
 
 }
+.contact {
+  color: white; 
+  text-align: center;
+  
+
+
+ 
+}
+.locateme{
+  border-top: 50px;
+  color: white;
+}
+  
+
 label{
   color: white;
 }
 
 
+/* PÁGINA SOBRE */
 
-
+.container{
+  color: white;
+  display: flex;
+  margin-top: 50px;
+}
